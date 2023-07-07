@@ -35,7 +35,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-h2{
+.banner-h2{
   font-size: 50px;
   font-weight: 900;
 }
@@ -60,3 +60,17 @@ h2{
   margin: 0px;
 
 }
+.about{
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 55px;
+}
+.abouts{
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
