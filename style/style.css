@@ -1,0 +1,20 @@
+.box{
+  padding: 20px;
+  background-color: red;
+  width: 110px;
+
+}
+.box2{
+  background-color: green;
+}
+.box3{
+  background-color: blue;
+}
+.container{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 500px;
+  border: 2px solid gray;
+  flex-direction: row-reverse;
+}
